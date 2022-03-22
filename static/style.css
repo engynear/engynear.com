@@ -111,8 +111,13 @@ h3 {
 }
 
 @media screen and (max-width: 978px){
+  .header{
+    height: 0px;
+    padding: 0px;
+  }
+
   .hero {
-    padding-top: 30px;
+    padding-top: 0px;
   }
 
   .hero_container {
@@ -143,6 +148,10 @@ h3 {
   .hero_box {
     max-width: 350px;
     animation: avatar-br-animate 5s infinite alternate;
+  }
+
+  .hero_about{
+    padding-bottom: 30px;
   }
 }
 
